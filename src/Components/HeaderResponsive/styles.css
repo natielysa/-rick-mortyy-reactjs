@@ -1,0 +1,56 @@
+.header{
+    font: 24px 'Bebas Neue', 'Roboto', sans-serif;
+    background-color: #202020;
+}
+
+.menu-hamburguer{
+    display: none;
+
+}
+
+.menu-options{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex ;
+    justify-content: center;
+}
+
+.menu-options li{
+    padding: 20px 40px;
+}
+
+.menu-options li:hover{
+    background-color: #494949;
+}
+
+.menu-options li a{ 
+    text-decoration: none;
+    color:#f4f4f4;
+ 
+}
+
+@media (max-width:768px){
+    .header{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 515px){
+    .menu-hamburguer{
+        display: block;
+        padding: 20px 40px;
+        text-align: start;
+    
+    }
+    
+    .menu-options{
+        display: none;
+      
+    }
+    .menu-options.active{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
