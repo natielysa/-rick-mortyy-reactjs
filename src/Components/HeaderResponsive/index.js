@@ -9,7 +9,7 @@ function HeaderResponsive(){
 
     function openMenu(event){
         event.preventDefault();
-        setActive(active);
+        setActive(!active);
         console.log(active);
 
     }
