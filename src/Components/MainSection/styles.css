@@ -73,3 +73,13 @@
         width: 90%;
     }
 }
+
+@media (max-width: 515px){
+    .main-data-container h1{
+        font-size: 40px;
+    }
+    .main-data-container p
+    .main-data-container button{
+        font-size: 14px;
+    }
+}
