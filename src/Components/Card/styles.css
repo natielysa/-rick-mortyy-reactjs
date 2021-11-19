@@ -1,0 +1,27 @@
+.card{
+    height:325px ;
+    border: 1px solid #a0a0a0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    color: black;
+    text-decoration: none ;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+
+}
+
+.card p{
+    margin: 0;
+    padding: 6px 0 0 6px;
+     font: bold 16px 'Roboto', sans-serif;
+}
