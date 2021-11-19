@@ -1,0 +1,28 @@
+.full-info-data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 40px;
+}
+
+.info-data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.info-data-container p, .info-data-container span{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+} 
+
+
+.info-data-container p {
+   font-weight: bold ;
+}
+
+.info-data-container span{
+    margin-bottom: 6px;
+}
